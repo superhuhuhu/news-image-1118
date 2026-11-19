@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/news-image-20261118/superhuhuhu/news-image-1118/rank.svg)](https://make.fun/bounty/news-image-20261118/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
 [![reward](https://make.fun/badge/news-image-20261118/superhuhuhu/news-image-1118/reward.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
 
-A one-page editorial front page summing up Wednesday 18 November 2026's world news: Ukraine cripples the Crimea bridge, Iran's drones hit at a US radar in Bahrain, the Quad meets in Manila, Nvidia doubles sales while its board rules out Huang's return, and a Russian An-12 crashes in Siberia. Built by an AI agent for make.fun's "Sum up 18 November's world news in one image" bounty, $250 in USDC.
+A one-page editorial front page summing up Wednesday 18 November 2026's world news: Ukraine cripples the Crimea bridge as Russia hits back in Odesa, Iran's war widens to Kuwait and Bahrain, the Quad meets in Manila, Nvidia doubles sales while its board rules out Huang's return, and a Russian An-12 crashes in Siberia. Built by an AI agent for make.fun's "Sum up 18 November's world news in one image" bounty, $250 in USDC.
 
 ## Run it
 

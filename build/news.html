@@ -12,28 +12,28 @@
     font-family: "Noto Sans", "DejaVu Sans", sans-serif;
     -webkit-font-smoothing: antialiased;
   }
-  .page { width: 1024px; height: 1024px; padding: 28px 40px 20px 40px; }
+  .page { width: 1024px; height: 1024px; padding: 18px 40px 14px 40px; }
 
   /* ---------- masthead ---------- */
-  .masthead { text-align: center; border-bottom: 5px solid #191713; padding-bottom: 13px; }
+  .masthead { text-align: center; border-bottom: 5px solid #191713; padding-bottom: 10px; }
   .masthead .kicker {
     font-size: 20px; letter-spacing: 8px; font-weight: 700; color: #b3231b;
     text-transform: uppercase;
   }
   .masthead h1 {
     font-family: "Noto Serif", Georgia, serif;
-    font-size: 78px; line-height: 1.02; font-weight: 900; letter-spacing: 1px;
-    margin-top: 6px;
+    font-size: 72px; line-height: 1.02; font-weight: 900; letter-spacing: 1px;
+    margin-top: 4px;
   }
   .masthead .sub {
-    margin-top: 10px; font-size: 21px; letter-spacing: 3.5px; font-weight: 700;
+    margin-top: 8px; font-size: 21px; letter-spacing: 3.5px; font-weight: 700;
     text-transform: uppercase; color: #44403a;
   }
   .masthead .sub b { color: #b3231b; }
 
   /* ---------- lead story ---------- */
   .lead {
-    display: flex; margin-top: 18px; padding-bottom: 14px;
+    display: flex; margin-top: 14px; padding-bottom: 12px;
     border-bottom: 2px solid #191713;
   }
   .lead .text { width: 600px; padding-right: 26px; }
@@ -44,15 +44,15 @@
   }
   .lead h2 {
     font-family: "Noto Serif", Georgia, serif;
-    font-size: 46px; line-height: 1.08; font-weight: 900; margin-top: 12px;
+    font-size: 42px; line-height: 1.08; font-weight: 900; margin-top: 10px;
   }
-  .lead p { font-size: 22px; line-height: 1.42; margin-top: 12px; color: #2b2823; }
+  .lead p { font-size: 21px; line-height: 1.4; margin-top: 10px; color: #2b2823; }
   .lead .art { width: 324px; flex: none; }
   .lead .art svg { display: block; width: 324px; height: 228px; }
 
   /* ---------- grid of four ---------- */
-  .grid { display: flex; flex-wrap: wrap; margin-top: 4px; }
-  .cell { width: 462px; padding: 15px 20px 11px 0; }
+  .grid { display: flex; flex-wrap: wrap; margin-top: 2px; }
+  .cell { width: 462px; padding: 9px 20px 6px 0; }
   .cell:nth-child(even) { padding-left: 22px; border-left: 1.5px solid #c9c2b2; width: 462px; }
   .cell:nth-child(1), .cell:nth-child(2) { border-bottom: 1.5px solid #c9c2b2; }
   .cell .head { display: flex; align-items: center; }
@@ -62,7 +62,7 @@
   }
   .cell h3 {
     font-family: "Noto Serif", Georgia, serif;
-    font-size: 31px; line-height: 1.12; font-weight: 900; margin-top: 10px;
+    font-size: 29px; line-height: 1.12; font-weight: 900; margin-top: 8px;
   }
   .cell p { font-size: 20px; line-height: 1.4; margin-top: 8px; color: #2b2823; }
   .c-blue .tag { color: #1f4e79; }
@@ -71,9 +71,16 @@
   .c-green .tag { color: #2e6b1f; }
   .c-red .tag { color: #b3231b; }
 
+  /* ---------- in brief ---------- */
+  .brief {
+    margin-top: 6px; padding-top: 5px; border-top: 1.5px solid #c9c2b2;
+    font-size: 16px; line-height: 1.45; color: #2b2823;
+  }
+  .brief b { color: #b3231b; letter-spacing: 2px; }
+
   /* ---------- footer ---------- */
   .footer {
-    margin-top: 8px; padding-top: 8px; border-top: 5px solid #191713;
+    margin-top: 6px; padding-top: 6px; border-top: 5px solid #191713;
     font-size: 15.5px; color: #55504a; display: flex; justify-content: space-between;
   }
   .footer b { color: #191713; }
@@ -92,7 +99,7 @@
     <div class="text">
       <span class="tag">Europe &middot; War in Ukraine</span>
       <h2>Ukraine cripples the Crimea bridge</h2>
-      <p>Drones and missiles knock out the road span of the 19&nbsp;km Kerch bridge &mdash; two killed, rail partly running &mdash; two days before Putin meets Trump and Xi.</p>
+      <p>Drones and missiles knock out the road span of the 19&nbsp;km Kerch bridge &mdash; two killed, rail down to one track &mdash; two days before Putin meets Trump and Xi. Moscow hit back in Odesa, killing at least five.</p>
     </div>
     <div class="art">
       <svg viewBox="0 0 324 238" xmlns="http://www.w3.org/2000/svg">
@@ -124,8 +131,8 @@
         </svg>
         <span class="tag">Middle East</span>
       </div>
-      <h3>Iran&rsquo;s drones hit at a US radar in Bahrain</h3>
-      <p>Tehran&rsquo;s third strike on Bahrain in five days; US jets answer on Qeshm Island. No casualties reported.</p>
+      <h3>Iran&rsquo;s war widens to Kuwait and Bahrain</h3>
+      <p>Tehran&rsquo;s drones hit US bases in Kuwait and Bahrain &mdash; the fourth strike on Bahrain in six days &mdash; after US jets hit Qeshm Island.</p>
     </div>
 
     <div class="cell c-teal">
@@ -143,7 +150,7 @@
         <span class="tag">Asia &middot; Diplomacy</span>
       </div>
       <h3>Quad meets in Manila for the first time since 2024</h3>
-      <p>Trump, Modi, Takaichi and Albanese agree a first joint patrol-aircraft exercise for 2027, plus an AI accelerator.</p>
+      <p>Trump, Modi, Takaichi and Albanese agree a first joint patrol-aircraft exercise for 2027, plus AI and undersea-cable pacts.</p>
     </div>
 
     <div class="cell c-green">
@@ -188,8 +195,10 @@
     </div>
   </div>
 
+  <div class="brief"><b>IN BRIEF</b> &nbsp; US outages hit Microsoft, the FAA, Chase and the NSA as Trump lands in Shenzhen for APEC &middot; an ADNOC ship is struck in Hormuz, one crew missing &middot; Israel opens a new operation in central Gaza.</div>
+
   <div class="footer">
-    <span><b>Sources:</b> Reuters &middot; Al Jazeera &middot; AFP &middot; The Times of India &middot; Dawn</span>
+    <span><b>Sources:</b> Reuters &middot; AP &middot; Al Jazeera &middot; AFP &middot; The Hindu &middot; Gulf News &middot; NPR</span>
     <span>18 November 2026</span>
   </div>
 
